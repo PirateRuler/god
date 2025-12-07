@@ -9,7 +9,7 @@ import { faAngleRight } from "@fortawesome/free-solid-svg-icons";
 const FAQ_ITEMS = [
   {
     question: "Is Anime by PirateRuler.com safe?",
-    answer: "Yes, JustAnime is completely safe to use. We ensure all content is properly scanned and secured for our users."
+    answer: "Yes, Anime by PirateRuler.com is completely safe to use. We ensure all content is properly scanned and secured for our users."
   },
   {
     question: "What makes PirateRuler.com the best site?",
