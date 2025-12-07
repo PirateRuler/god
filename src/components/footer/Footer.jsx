@@ -22,7 +22,7 @@ function Footer() {
           <div className="mb-6 text-center sm:text-left">
             <div className="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-4 mb-4 items-center sm:items-start">
               <h2 className="text-sm font-medium text-white">A-Z LIST</h2>
-              <span className="text-sm text-white/60">Browse Anime Alphabetically</span>
+              <span className="text-sm text-white/60">Browse anime alphabetically</span>
             </div>
             <div className="flex flex-wrap gap-1.5 justify-center sm:justify-start">
               {["All", "#", "0-9", ...Array.from({ length: 26 }, (_, i) => String.fromCharCode(65 + i))].map((item, index) => (
@@ -31,55 +31,30 @@ function Footer() {
                   key={index}
                   className="px-2.5 py-1 text-sm bg-white/5 hover:bg-white/10 text-white/60 hover:text-white rounded transition-colors"
                 >
-              {item}
-
+                  {item}
                 </Link>
-
               ))}
-
             </div>
-
             <div className="flex gap-4 flex-wrap justify-center sm:justify-start mt-4">
-
               <Link
-
                 to="/terms-of-service"
-
                 className="text-sm text-white/60 hover:text-white transition-colors"
-
               >
-
                 Terms of Service
-
               </Link>
-
               <Link
-
                 to="/dmca"
-
                 className="text-sm text-white/60 hover:text-white transition-colors"
-
               >
-
-                About
-
+                DMCA
               </Link>
-
               <Link
-
                 to="/contact"
-
                 className="text-sm text-white/60 hover:text-white transition-colors"
-
               >
-
                 Contact
-
               </Link>
-
             </div>
-
-          </div>
           </div>
 
           {/* Legal Text */}
